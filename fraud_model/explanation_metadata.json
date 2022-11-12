@@ -1,0 +1,36 @@
+{
+  "outputs": {
+    "dense_1": {
+      "output_tensor_name": "dense_1"
+    }
+  },
+  "inputs": {
+    "dense_input": {
+      "input_tensor_name": "dense_input",
+      "encoding": "bag_of_features",
+      "modality": "numeric",
+      "input_baselines": [
+        [
+          -0.1838506795280855,
+          -0.27466072542400144,
+          -0.3228555562238969,
+          -0.25881047857443157,
+          -0.2357489576922134,
+          -0.2542565429820608
+        ]
+      ],
+      "index_feature_mapping": [
+        "step",
+        "amount",
+        "oldbalanceOrg",
+        "newbalanceOrig",
+        "oldbalanceDest",
+        "newbalanceDest"
+      ]
+    }
+  },
+  "framework": "tensorflow2",
+  "tags": [
+    "explainable_ai_sdk"
+  ]
+}
